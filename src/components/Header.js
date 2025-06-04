@@ -12,7 +12,7 @@ function Header() {
         <a href="#">Обратная связь</a>
       </nav>
       <div className="header__auth">
-        <a href="#">root | Выйти</a>
+        <a href="#">Войти | Регистрация</a>
       </div>
     </header>
   );
