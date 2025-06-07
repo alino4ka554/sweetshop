@@ -2,6 +2,71 @@ body {
   background: #f5e6e1;
   font-family: 'Segoe UI', sans-serif;
 }
+.dessert-container {
+  display: flex;
+  align-items: flex-start;
+  padding: 1rem;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.form-column {
+  flex: 0 0 320px;
+}
+
+.list-column {
+  flex: 1;
+  min-width: 300px;
+}
+
+.dessert-form {
+  background: #fffdfc;
+  border: 1px solid #eee;
+  padding: 1rem;
+  margin: 1.5rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  max-width: 400px;
+}
+
+.dessert-form input,
+.dessert-form textarea {
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+
+.dessert-form input.error,
+.dessert-form textarea.error {
+  border-color: #e45757;
+  background-color: #ffeaea;
+}
+
+.error-text {
+  color: #e45757;
+  font-size: 0.8rem;
+  margin-top: -0.4rem;
+  margin-bottom: 0.4rem;
+}
+
+.dessert-form button {
+  background: #d08e8e;
+  border: none;
+  color: white;
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+
+.dessert-form button:hover {
+  background: #b86c6c;
+}
+
 .header {
   display: flex;
   align-items: center;

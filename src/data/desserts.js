@@ -11,7 +11,6 @@ const desserts = [
     price: 700,
     description: "Пирожное Красный бархат с воздушным...",
   },
-  // и т.д.
 ];
 
 export default desserts;
